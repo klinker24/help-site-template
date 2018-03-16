@@ -51,6 +51,8 @@ The main thing that you will want to customize is probably the toolbar color and
 
 The next thing that you may consider coloring is the highlight color. Whenever the user searches for a keyword that appears in the topics title, that word is highlighted in the title. You can customize this from the top of the [theme.css](help/resources/css/theme.css) file, as well.
 
+After that, take a look at the top element in the [expandable.css](help/resources/css/expandable.css) file. It will allow you to set the color of the topic title, when it is expanded.
+
 The last thing you may want to customize is the color of the background when you hover over an auto-complete result, when searching. You can customize this color from the top line, in the [autocomplete.js](help/resources/js/autocomplete.js) file.
 
 ## Contributing

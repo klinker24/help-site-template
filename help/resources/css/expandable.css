@@ -1,3 +1,7 @@
+.mdl-collapse.mdl-collapse--opened .mdl-collapse__button {
+	color: #009688;
+}
+
 .mdl-collapse.mdl-collapse--opened {
 	border-top: 1px solid #e0e0e0;
 	border-bottom: 1px solid #e0e0e0;
@@ -34,10 +38,6 @@
 
 .mdl-collapse.mdl-collapse--opened .mdl-collapse__icon {
 	transform: rotate(-180deg);
-}
-
-.mdl-collapse.mdl-collapse--opened .mdl-collapse__button {
-	color: teal;
 }
 
 .mdl-collapse.mdl-collapse--opened .mdl-collapse__content {
