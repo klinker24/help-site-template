@@ -1,0 +1,75 @@
+input[type=text] {
+	width: 240px;
+	box-sizing: border-box;
+	border: 2px solid #ccc;
+	border-radius: 4px;
+	font-size: 16px;
+	background-color: white;
+	background-position: 10px 10px;
+	background-repeat: no-repeat;
+	padding: 12px 20px 12px 40px;
+	-webkit-transition: width 0.4s ease-in-out;
+	transition: width 0.4s ease-in-out;
+}
+
+input[type=text]:focus {
+	width: 100%;
+}
+
+#quick_find {
+	white-space: nowrap;
+	padding-top: 5px;
+	text-align: right;
+}
+
+.quick_find {
+	width: 185px;
+	margin-top: 3px;
+	margin-right: 12px;
+	margin-left: 12px;
+	border: 0px solid rgba(255, 255, 255, .2);
+	border-radius: 2px;
+	font-size: 15px;
+	background-color: rgba(255, 255, 255, .2);
+	color: white;
+	background-position: 10px 10px;
+	background-repeat: no-repeat;
+	padding: 4px 0px 4px 10px;
+	-webkit-transition: width 0.4s ease-in-out;
+	transition: width 0.4s ease-in-out;
+}
+
+.quick_find:focus {
+	width: 400px;
+	outline: none !important;
+	border: 0px solid rgba(255, 255, 255, .4);
+	box-shadow: 0 0 0px white;
+}
+
+@media (max-width:450px) {
+	.quick_find:focus {
+		width: 250px;
+	}
+}
+
+.quick_find::-webkit-input-placeholder {
+	color: white;
+}
+
+.quick_find:-moz-placeholder {
+	color: white;
+	opacity: 1;
+}
+
+.quick_find::-moz-placeholder {
+	color: white;
+	opacity: 1;
+}
+
+.quick_find:-ms-input-placeholder {
+	color: white;
+}
+
+.quick_find::-ms-input-placeholder {
+	color: white;
+}
