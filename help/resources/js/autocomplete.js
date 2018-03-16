@@ -1,3 +1,5 @@
+var autocompleteColor = "#B2DFDB";
+
 function autocomplete(input, keywords) {
   var matchData = function(input, keywords) {
     var reg = new RegExp(input.split('').join('\\w*').replace(/\W/, ""), 'i');
@@ -46,9 +48,11 @@ function autocomplete(input, keywords) {
       });
 
       p.mouseenter(function() {
-        $(this).css("background-color", "#B2DFDB");
+        $(this).css("background-color", autocompleteColor);
+        $(this).css("color", "white");
       }).mouseleave(function() {
         $(this).css("background-color", "white");
+        $(this).css("color", "black");
       });
 
       res.append(p);

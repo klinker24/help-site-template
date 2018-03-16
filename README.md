@@ -49,7 +49,9 @@ The main thing that you will want to customize is probably the toolbar color and
 * You can add your own icon by changing out the [logo.svg](help/resources/images/logo.svg) file.
 * You can customize the toolbar color (and the link color), from the [theme.css](help/resources/css/theme.css) file.
 
-The other thing that you may consider coloring is the highlight color. Whenever the user searches for a keyword that appears in the topics title, that word is highlighted in the title. You can customize this from the top of the [theme.css](help/resources/css/theme.css) file, as well.
+The next thing that you may consider coloring is the highlight color. Whenever the user searches for a keyword that appears in the topics title, that word is highlighted in the title. You can customize this from the top of the [theme.css](help/resources/css/theme.css) file, as well.
+
+The last thing you may want to customize is the color of the background when you hover over an auto-complete result, when searching. You can customize this color from the top line, in the [autocomplete.js](help/resources/js/autocomplete.js) file.
 
 ## Contributing
 
