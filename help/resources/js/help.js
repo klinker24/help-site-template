@@ -1,6 +1,4 @@
 $(document).ready(function() {
-    $("#toolbar").css("background-color", "#009688");
-
     $("#logo").click(function() {
         window.location.replace("../index.html")
     });
